@@ -1,0 +1,242 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.mian{
+    margin-top: 8px;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+  
+}
+.fouse{
+    float: left;
+    width: 720px;
+    height: 455px;
+
+}
+.newsflash{
+    float: left;
+    width: 250px;
+    height: 455px;
+    margin-left: 10px;
+ 
+}
+.news{
+    height: 165px;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+   
+
+}
+.news_hd{
+    height: 30px;
+    line-height: 30px;
+   border-bottom: 1px dotted #e4e4e4;
+ 
+}
+.news_hd h4{
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+
+}
+.news_hd a{
+float: right;
+margin-right: 15px;
+}
+.news_hd a::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.news_bd{
+    margin: 0 15px;
+}
+.news_bd li{
+    line-height: 27px;
+}
+
+.lifeservice{
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    height: 210px;
+    width: 250px;
+    border-top: 0;
+    
+}
+
+.lifeservice ul{
+    width: 256px;
+    text-align: center;
+}
+.lifeservice li{
+    float: left;
+    width: 64px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4; 
+}
+.lifeservice ul li i{
+    display:inline-block;
+    width: 22px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+}
+
+.bargian{
+    margin-top: 5px;
+    height: 76px;
+    width: 250px;
+   
+}
+/* 今日推荐模块 */
+.rencom{
+    margin-top: 12px;
+    height: 163px;
+    background-color:#ebebeb;
+}
+.rencom_hd{
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.rencom_bd{
+    float: left;
+}
+.rencom_bd ul li{
+    position: relative;
+    float: left;
+    width: 247px;
+    height: 163px;  
+}
+.rencom_bd ul li:nth-child(-n+3)::after{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    height: 145px;
+    width: 1px;
+    background-color: #ddd;
+}
+/* 家电模块· */
+.jiandian{
+    padding-top:  30px;
+}
+.floor_hd{
+   height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+.table_list{
+    float: right;
+}
+.table_list ul li{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+.table_list ul li a{
+    margin: 0 15px;
+}
+.floor_bd{
+    height: 360px;
+  
+}
+.table_content{
+    float: left;
+}
+ .table_content_items >div{
+     float: left;
+ }
+
+.col_209{
+    height: 360px;
+    width: 209px;
+}
+.col_329{
+
+    width: 329px;
+}
+.col_220{
+    border-right: 1px solid #ccc;
+    width: 220px;
+}
+.col_218{
+    border-left: 1px solid #ccc;
+    width: 218px;
+}
+.col_209 ul li{
+    float: left;
+    width: 88px;
+    height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_209 ul {
+    margin-left: 10px;
+}
+.col_209 img{
+    width: 209px;
+    height: 265px;
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #CCC;
+}
+.shouji {
+    margin-top: 30px; 
+}
